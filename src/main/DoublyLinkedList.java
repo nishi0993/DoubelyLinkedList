@@ -41,6 +41,10 @@ public class DoublyLinkedList {
         while(temp!=null)
         {
             response.append(temp.data);
+            if(temp.next!=null)
+            {
+                response.append("  <=> ");
+            }
             temp=temp.next;
         }
         response.append("]");
