@@ -1,6 +1,7 @@
 package main;
 
 public class DoublyLinkedList {
+  /* WRONG CODE:
     private static class Node
     {
         private int data;
@@ -67,10 +68,12 @@ public class DoublyLinkedList {
         }
         else{
             Node temp=this.head;
-            while(temp!=null){
+            while(temp.next!=null){
                 temp = temp.next;
             }
             insertAfter(data,temp);
-        }
-        }
+        }}
+      */
+  class Node{
+
 }
