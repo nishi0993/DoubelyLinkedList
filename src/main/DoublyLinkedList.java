@@ -154,7 +154,9 @@ return response;
       }
       size++;
   }
+        void DeleteArBeginning(){
 
+        }
     }
 
 }
