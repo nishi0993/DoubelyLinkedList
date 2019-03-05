@@ -159,6 +159,9 @@ return response;
             head=head.next;
             head.previous=null;
         }
+        void insertBeforeNode(Node nodeBefore){
+
+        }
     }
 
 }
