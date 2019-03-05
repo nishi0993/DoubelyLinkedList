@@ -128,6 +128,17 @@ class DoublyLinkedList {
             linkedList.display();
         }
   boolean search(Node node){
+boolean response=false;
+Node temp=head;
+while(temp!=null)
+{
+    if (temp.data==node.data){
+        response=true;
+        break;
+    }
+    temp=temp.next;
+}
+return response;
 
   }
   void insertAtBeginning(Node node){
