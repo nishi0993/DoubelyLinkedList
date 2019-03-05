@@ -108,7 +108,9 @@ public class DoublyLinkedList {
               System.out.println("null");
           }
       }
+   void delete(){
 
+   }
       public static void main(String[] args) {
           DoublyLinkedList1 linkedList=new DoublyLinkedList1();
           linkedList.display();
