@@ -80,7 +80,7 @@ public class DoublyLinkedList {
     Node previous;
 
   }
-  public class DoublyLinkedList{
+  public class DoublyLinkedList1{
       Node head;
       int size;
       void insert(Node node){
@@ -107,6 +107,11 @@ public class DoublyLinkedList {
               }
               System.out.println("null");
           }
+      }
+
+      public static void main(String[] args) {
+          DoublyLinkedList1 linkedList=new DoublyLinkedList1();
+          linkedList.display();
       }
   }
 }
