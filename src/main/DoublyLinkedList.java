@@ -155,7 +155,9 @@ return response;
       size++;
   }
         void DeleteArBeginning(){
-
+            System.out.println("deleting node "+head.data+" from beginning");
+            head=head.next;
+            head.previous=null;
         }
     }
 
