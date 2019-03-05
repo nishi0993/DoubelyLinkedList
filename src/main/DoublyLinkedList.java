@@ -80,6 +80,7 @@ public class DoublyLinkedList {
     Node previous;
   }
   public class DoublyLinkedList{
-
+      Node head;
+      int size;
   }
 }
