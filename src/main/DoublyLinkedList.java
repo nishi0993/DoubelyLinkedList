@@ -97,7 +97,8 @@ public class DoublyLinkedList {
               temp.next=node;
           }
           void display(){
-
+              System.out.println("Doubly LinkedList");
+              Node temp=head;
           }
       }
   }
