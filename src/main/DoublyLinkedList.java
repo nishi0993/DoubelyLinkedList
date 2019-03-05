@@ -130,6 +130,9 @@ class DoublyLinkedList {
   boolean search(Node node){
 
   }
+  void insertAtBeginning(Node node){
+
+  }
     }
 
 }
