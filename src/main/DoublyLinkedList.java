@@ -143,8 +143,18 @@ return response;
 
   }
   void insertAtBeginning(Node node){
+      System.out.println("inserting node "+node.data+" at beginning");
+      if (head==null){
+          head=node;
+      }
+      else{
+          node.next=head;
+          head.previous=node;
+          head=node;
+      }
+      size++;
+  }
 
-        }
     }
 
 }
