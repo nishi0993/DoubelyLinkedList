@@ -126,6 +126,7 @@ class DoublyLinkedList {
         public static void main(String[] args) {
             DoubelyLinkedList linkedList = new DoubelyLinkedList();
             linkedList.display();
+
         }
   boolean search(Node node){
 boolean response=false;
@@ -143,7 +144,7 @@ return response;
   }
   void insertAtBeginning(Node node){
 
-  }
+        }
     }
 
 }
