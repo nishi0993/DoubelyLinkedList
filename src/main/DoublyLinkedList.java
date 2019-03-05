@@ -96,6 +96,9 @@ public class DoublyLinkedList {
               node.previous=temp;
               temp.next=node;
           }
+          void display(){
+
+          }
       }
   }
 }
