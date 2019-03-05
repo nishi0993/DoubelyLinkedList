@@ -127,7 +127,9 @@ class DoublyLinkedList {
             DoubelyLinkedList linkedList = new DoubelyLinkedList();
             linkedList.display();
         }
+  boolean search(Node node){
 
+  }
     }
 
 }
