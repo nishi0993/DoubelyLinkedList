@@ -159,8 +159,12 @@ return response;
             head=head.next;
             head.previous=null;
         }
-        void insertBeforeNode(Node nodeBefore){
-
+        void insertBeforeNode(Node node,Node nodeBefore){
+            System.out.println("inserting node "+node.data+" before node "+nodeBefore);
+            Node temp=head;
+            while(temp!=null){
+                if(temp.data==nodeBefore)
+            }
         }
     }
 
