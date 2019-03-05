@@ -79,4 +79,7 @@ public class DoublyLinkedList {
     Node next;
     Node previous;
   }
+  public class DoublyLinkedList{
+
+  }
 }
